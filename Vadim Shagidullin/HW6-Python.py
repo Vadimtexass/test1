@@ -9,15 +9,19 @@ c = b * 5
 print(a, c)
 
 #3
+#num = '5934'
+#numbers = num.split()
+#print(numbers)
+
 num = '5934'
-numbers = num.split()
+numbers = ', '.join([ch for ch in num])
 print(numbers)
 
 #4
 name = input("Hi my name is ")
 lastName = input("My last name is ")
 age = int(input("I'm "))
-print()
+print(age)
 
 #5
 q = 136
